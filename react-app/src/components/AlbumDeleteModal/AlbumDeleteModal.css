@@ -1,0 +1,43 @@
+.delete-album-div {
+    font-family: Arial, Helvetica, sans-serif;
+    border-top: 4px solid rgb(207, 115, 87);
+    border-bottom: 4px solid rgb(207, 115, 87);
+    background-color: rgb(112, 112, 112);
+    color: white;
+    text-align: center;
+    padding: 0px 20px;
+    width: 370px;
+}
+
+.confirm-album-delete, .decline-album-delete {
+    background-color: rgb(112, 112, 112);
+
+    border: none;
+    border-right: 1px solid rgb(153, 153, 153);
+
+    color: white;
+    font-size: 16px;
+
+    margin-bottom: 16px;
+    margin-top: 8px;
+
+    padding: 6px 8px;
+}
+
+.decline-album-delete {
+    border: none;
+}
+
+.confirm-album-delete:hover {
+    background-color: rgba(180, 105, 105, 0.8);
+    transition: .5s;
+}
+
+.decline-album-delete:hover {
+    background-color: rgb(131, 131, 131);
+    transition: .5s;
+}
+
+.modalText {
+    color: white;
+}

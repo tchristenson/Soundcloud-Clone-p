@@ -1,0 +1,88 @@
+.new-album-form {
+    /* border: red 2px dotted; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.new-album-form-details {
+    color: white;
+    font-weight: bold;
+}
+
+.album-name-input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin: 24px 0px;
+}
+
+.album-name-label {
+    margin-left: -68px;
+}
+
+.album-file-input {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+
+    padding: 12px;
+    background-color: rgb(121, 121, 121);
+
+    border-top: 4px solid rgb(169, 87, 207);
+    border-bottom: 4px solid rgb(169, 87, 207);
+}
+
+.album-style-input {
+    margin: 24px 0px;
+    padding: 12px;
+    background-color: rgb(121, 121, 121);
+
+    border-top: 4px solid rgb(207, 115, 87);
+    border-bottom: 4px solid rgb(207, 115, 87);
+}
+
+.dropdown-input {
+    padding: 12px;
+    background-color: rgb(121, 121, 121);
+
+    border-top: 4px solid rgb(87, 207, 87);
+    border-bottom: 4px solid rgb(87, 207, 87);
+}
+
+.dropzone {
+    border: 4px dashed lightgray;
+    width: 100%;
+    height: 76px;
+
+    text-align: center;
+    padding-top: 25px;
+    background-color: rgb(141, 141, 141);
+}
+
+.dropdown-text {
+    align-content: center;
+    font-size: 14px;
+}
+
+.cancel-song {
+    margin-left: 8px;
+
+    background-color: rgb(121, 121, 121);
+  
+    border: none;
+    border-right: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgb(153, 153, 153);
+
+    color: white;
+}
+
+.cancel-song:hover {
+    background-color: rgba(180, 105, 105, 0.8);
+    transition: .5s;
+}
+
+.album-four {
+    margin-top: 24px;
+}

@@ -1,0 +1,15 @@
+.like-btn2{
+    max-width: 10px;
+
+}
+
+.likeDiv{
+    display: flex;
+    
+
+}
+
+.like-btn{
+    background-color: transparent;
+    border: none;
+}

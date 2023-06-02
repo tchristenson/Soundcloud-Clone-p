@@ -1,0 +1,3 @@
+Front end routes:
+"/"-  home page
+*Fetch all songs and albums

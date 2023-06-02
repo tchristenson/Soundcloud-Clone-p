@@ -1,0 +1,68 @@
+#singSongPage {
+    margin: 24px;
+}
+
+.audio-player {
+    border-top: 4px solid rgb(87, 207, 87);
+}
+
+.audio-image {
+    border: 2px solid rgb(87, 207, 87);
+}
+
+.song-secondary-ui {
+    background-color: rgb(121, 121, 121);
+    color: white;
+    text-decoration: none;
+    padding: 16px;
+    border-top: 2px solid rgb(87, 207, 87);
+    border-bottom: 4px solid rgb(87, 207, 87);
+
+    display: flex;
+}
+
+.like-btn, .add-to-pl-btn, .song-del-btn, .song-edit-btn {
+    background-color: rgb(121, 121, 121);
+
+    border: none;
+    border-right: 1px solid rgb(153, 153, 153);
+    border-left: 1px solid rgb(153, 153, 153);
+
+    color: white;
+    font-size: 16px;
+
+    /* margin-bottom: 8px;
+    margin-top: 8px; */
+    margin-left: -1px;
+
+    padding: 6px 18px;
+}
+
+.song-del-btn {
+    margin: 10px;
+}
+
+.song-edit-btn {
+    margin: 10px;
+    margin-left: -11px;
+}
+
+.like-btn:hover {
+    background-color: rgba(228, 88, 134, 0.7);
+    transition: .5s;
+}
+
+.add-to-pl-btn:hover {
+    background-color: rgba(140, 187, 209, 0.7);
+    transition: .5s;
+}
+
+.song-del-btn:hover {
+    background-color: rgba(180, 105, 105, 0.8);
+    transition: .5s;
+}
+
+.song-edit-btn:hover {
+    background-color: rgba(140, 187, 209, 0.7);
+    transition: .5s;
+}

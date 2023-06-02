@@ -1,0 +1,57 @@
+#homePage {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  padding: 20px;
+  max-width: 100%;
+}
+.songLink {
+  color: white;
+}
+
+#songContainer {
+  display: flex;
+  border: 2px solid black;
+  width: 50%;
+  gap: 20px;
+  flex-flow: row wrap;
+  flex: 2 1 auto;
+  justify-content: center;
+  padding: 20px;
+}
+
+#homePageStyle {
+  display: flex;
+  flex: 2 1 auto;
+}
+
+.songDiv {
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+  border: 1px solid white;
+  width: 150px;
+
+}
+
+.songDiv p a {
+  margin: 0;
+  padding: 0;
+  justify-items: flex-start;
+  text-align: center;
+}
+.inputDiv {
+  padding: 20px;
+}
+
+.songImage {
+  width: 7.5rem;
+  height: 7.5rem;
+  border-radius: 20px;
+}
+
+footer {
+  text-align: center;
+}

@@ -1,0 +1,19 @@
+#UserSearchPage {
+    display: flex;
+    flex-direction: column;
+    max-width: 90%;
+    align-items: center;
+}
+
+.user-picture-div {
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(207, 115, 87);
+    margin-left: 8px;
+    margin-right: 16px;
+}
+
+.user-picture {
+    width: 100%;
+    height: 100%;
+}
